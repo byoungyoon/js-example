@@ -1,0 +1,60 @@
+@import "./shared/index.css";
+
+html, body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    background-color: #f1f5f9;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+header .btn {
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.1),
+    0 2px 3px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+main #wrapper {
+    width: 540px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+form .input-field {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: inherit;
+    width: 100%;
+    height: auto;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background: #f1f5f9;
+}
+
+form .input-submit {
+    font-size: 1rem;
+    line-height: inherit;
+    cursor: pointer;
+    min-width: 90px;
+    height: auto;
+    padding: 0.65rem 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+}

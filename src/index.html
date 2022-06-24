@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/index.css"/>
+    <title>Document</title>
+</head>
+<body>
+<div id="container">
+    <div class="d-flex justify-center mt-5 w-100">
+        <div class="w-100">
+            <header>
+                <h1>🌆 베이커리 메뉴 관리</h1>
+                <nav class="d-flex justify-center flex-wrap">
+                    <button type="button" class="btn bg-white mr-3">☕ COFFEE</button>
+                    <button type="button" class="btn bg-white mr-3">🍸️ ADE</button>
+                    <button type="button" class="btn bg-white mr-3">🍵 TEA</button>
+                    <button type="button" class="btn bg-white mr-3">🍹 JUICE</button>
+                    <button type="button" class="btn bg-white">🍞 BREAD</button>
+                </nav>
+            </header>
+            <main class="d-flex justify-center mt-5">
+                <div id="wrapper" class="p-10 bg-white">
+                    <div class="d-flex justify-between">
+                        <h2 class="mt-2 ml-2">☕ COFFEE 메뉴 관리</h2>
+                        <span class="mr-2 mt-4">총 0개</span>
+                    </div>
+                    <form>
+                        <div class="d-flex w-100">
+                            <label for="menu-name" class="input-label" hidden>메뉴 이름</label>
+                            <input
+                                    type="text"
+                                    id="menu-name"
+                                    class="input-field mr-4"
+                                    placeholder="메뉴 이름"
+                                    autocomplete="off"
+                            />
+                            <button type="button" class="input-submit bg-skyblue">
+                                확인
+                            </button>
+                        </div>
+                    </form>
+                    <div id="menu-list" class="mt-5 mb-5">
+                        <div class="d-flex justify-between mb-2">
+                            <span class="mt-2 ml-2">아메리카노</span>
+                            <div>
+                                <button type="button" class="btn">수정</button>
+                                <button type="button" class="btn">삭제</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>
+<script type="module" src="../assets/js/main.js"></script>
+</body>
+</html>
