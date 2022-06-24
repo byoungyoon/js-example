@@ -1,3 +1,5 @@
+![img.png](assets/images/background.png)
+
 ## 🌆 실행법
     npm install 입력
 
